@@ -1,6 +1,6 @@
-# ÆÄÀÌ, ¹Ú½ºÇÃ·Ô, ÁÙ±â/ÀÙ, Ä¿ºê
+# ï¿½ï¿½ï¿½ï¿½, ï¿½Ú½ï¿½ï¿½Ã·ï¿½, ï¿½Ù±ï¿½/ï¿½ï¿½, Ä¿ï¿½ï¿½
 sales = seq(10, 30, 5)
-region = c("Á¦ÁÖ", "´ë±¸", "´ëÀü", "°æ±â", "¼­¿ï")
+region = c("ï¿½ï¿½ï¿½ï¿½", "ï¿½ë±¸", "ï¿½ï¿½ï¿½ï¿½", "ï¿½ï¿½ï¿½", "ï¿½ï¿½ï¿½ï¿½")
 pie(x=sales, labels=region)
 pie(x=sales, labels=region, clockwise=T)
 pie(x=sales, labels=region, col=c("red", "orange", "yellow", "green", "blue"))
@@ -21,7 +21,7 @@ curve(expr=x^2, from=-2, to=2)
 curve(expr=x^2, from=-2, to=2, type="l")
 curve(expr=x^2, from=-2, to=2, col="blue")
 
-# Àú¼öÁØ ÇÔ¼ö: ¿Ï¼ºµÈ ±×·¡ÇÁ¿¡ Á÷¼±, ¹ü·Ê, Á¦¸ñ Ãß°¡
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ô¼ï¿½: ï¿½Ï¼ï¿½ï¿½ï¿½ ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ ï¿½ß°ï¿½
 x = c(1:5)
 y = c(1:5)
 p = c(2,1,2,3,4)
@@ -86,7 +86,7 @@ legend("bottom", legend=c("x","y"), lty=c(1,2), title="bottom")
 legend("left", legend=c("x","y"), pch=c(1,2), title="left")
 legend("right", legend=c("x","y"), pch=c(1,2), col=c(1,2), title="right")
 
-#±×·¡ÇÁÀÇ ÁßÃ¸
+#ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½Ã¸
 plot(sin, -pi, pi, xlab="", ylab="", lty=2)
 par(new=T)
 plot(cos, -pi, pi, xlab="x", ylab="y")
@@ -94,14 +94,10 @@ par(new=T)
 plot(sin, -2*pi, 2*pi, xlab="X", ylab="Y",col="red")
 
 
-#±×·¡ÇÁÀÇ ÀúÀå
+#ï¿½×·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½
 x <- c(1:5)
 y <- c(1:5)
 plot(x,y,type="n")
 getwd()
 setwd("C:/Users/dlsfu/Desktop/Rstat_pract/data")
 savePlot(filename="Rplot", type="png")
-
-
-
-

@@ -1,8 +1,8 @@
-# »êÁ¡µµ: plot(), pairs()
-# ¸·´ë: barplot()
-# È÷½ºÅä±×·¥: hist()
-# ¹Ú½ºÇÃ·Ô: boxplot()
-# ÇÔ¼ö ±×·¡ÇÁ: curve()
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½: plot(), pairs()
+# ï¿½ï¿½ï¿½ï¿½: barplot()
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×·ï¿½: hist()
+# ï¿½Ú½ï¿½ï¿½Ã·ï¿½: boxplot()
+# ï¿½Ô¼ï¿½ ï¿½×·ï¿½ï¿½ï¿½: curve()
 
 
 cars
@@ -37,7 +37,7 @@ barplot(height=c(4,3,5,8), names.arg=c("A", "T", "G", "M"))
 barplot(height=fruits_count, horiz=TRUE)
 
 
-# È÷½ºÅä±×·¥
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×·ï¿½
 class_height = c(172, 184, 198, 175, 182, 190)
 hist(x = class_height)
 hist(x = class_height, breaks=c(160, 170, 180, 190))
